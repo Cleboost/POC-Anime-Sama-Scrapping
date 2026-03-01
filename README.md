@@ -1,4 +1,4 @@
-# Anime-Sama Stream Analysis
+# POC Anime-Sama Scrapping
 
 This repository is a **Research and Proof of Concept (POC)** project focused on analyzing and scraping anime content from the French platform **Anime-Sama**.
 

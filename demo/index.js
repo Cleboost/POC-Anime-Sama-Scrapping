@@ -6,7 +6,7 @@
 // --- Import/Implement POC Logic ---
 
 async function searchAnime(query) {
-    const response = await fetch("https://anime-sama.tv/template-php/defaut/fetch.php", {
+    const response = await fetch("https://anime-sama.to/template-php/defaut/fetch.php", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: `query=${encodeURIComponent(query)}`
@@ -81,7 +81,7 @@ async function extractVidmolyStream(url) {
     const response = await fetch(url, {
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Referer': 'https://anime-sama.tv/'
+            'Referer': 'https://anime-sama.to/'
         }
     });
     const html = await response.text();

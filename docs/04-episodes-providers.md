@@ -3,7 +3,7 @@
 The heart of the streaming data on Anime-Sama is contained within a separate `episodes.js` file for each season or movie.
 
 ## Endpoint
-- **URL**: `https://anime-sama.tv/catalogue/{anime}/{season}/{language}/episodes.js`
+- **URL**: `https://anime-sama.to/catalogue/{anime}/{season}/{language}/episodes.js`
 - **Method**: `GET`
 
 ## Mechanism

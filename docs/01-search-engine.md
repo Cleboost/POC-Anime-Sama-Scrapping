@@ -3,7 +3,7 @@
 Anime-Sama uses a simple but effective internal search engine to find series.
 
 ## Endpoint
-- **URL**: `https://anime-sama.tv/template-php/defaut/fetch.php`
+- **URL**: `https://anime-sama.to/template-php/defaut/fetch.php`
 - **Method**: `POST`
 - **Payload**: `query=YOUR_SEARCH_TERM`
 
